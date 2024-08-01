@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+  
+    /* height: 100%; */
+    /* display: -webkit-box; */
+    /* display: -ms-flexbox; */
+    /* display: flex; */
+    /* display: -webkit-flex; */
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* position: relative; */
+}
+.bg-image{
+  filter: blur(2px);
+  position: absolute;
+  -webkit-filter: blur(8px);
+height: 100vh;
+width: 100vw;
+background-position: center;
+/* background-repeat: no-repeat; */
+/* background-size: cover; */
+}
+
+
+.page{
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    width: 400px;
+}
+
+.form {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: inline-block;
+    margin: auto;
+    width: 400px;
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+.form h1{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 15px;
+}
+
+.form .input-box {
+    position: relative;
+}
+
+.form .input-box input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #1ff403;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+}
+
+.form .input-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+}
+
+.form input[type= "submit"] {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    background: #d9d9d9;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn {
+    background: #565656;
+    background-image: -webkit-linear-gradient(top, #585858, #585858);
+    background-image: -moz-linear-gradient(top, #585858, #585858);
+    background-image: -ms-linear-gradient(top, #585858, #585858);
+    background-image: -o-linear-gradient(top, #585858, #585858);
+    background-image: linear-gradient(to bottom, #585858, #585858);
+    -webkit-border-radius: 17;
+    -moz-border-radius: 17;
+    border-radius: 17px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+  .btn :hover {
+    background: #00ff40;
+    background-image: -webkit-linear-gradient(top, #00ff40, #00ff40);
+    background-image: -moz-linear-gradient(top, #00ff40, #00ff40);
+    background-image: -ms-linear-gradient(top, #00ff40, #00ff40);
+    background-image: -o-linear-gradient(top, #00ff40, #00ff40);
+    background-image: linear-gradient(to bottom, #00ff40, #00ff40);
+    text-decoration: none;
+  }
