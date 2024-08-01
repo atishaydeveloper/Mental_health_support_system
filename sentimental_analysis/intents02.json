@@ -1,0 +1,356 @@
+{
+    "intents": [
+      {
+        "tag": "major_depression",
+        "patterns": [
+          "I feel worthless",
+          "I can't find joy in anything",
+          "I'm always tired",
+          "I'm constantly sad",
+          "I have no motivation"
+        ],
+        "responses": 
+          {
+            "symptoms": ["Persistent feelings of sadness, loss of interest in activities, changes in appetite or sleep, fatigue, feelings of worthlessness."],
+            "recommendations": ["Seek support from a mental health professional. Regular exercise, a healthy diet, and staying connected with loved ones can also be helpful."]
+          }
+        
+      },
+      {
+        "tag": "persistent_depressive_disorder",
+        "patterns": [
+          "I feel down most of the time",
+          "I've been feeling low for years",
+          "It's hard to remember the last time I was happy",
+          "I'm always in a low mood",
+          "I feel hopeless"
+        ],
+        "responses": 
+          {
+            "symptoms": ["Chronic state of depression lasting for at least two years, low energy, low self-esteem, difficulty concentrating."],
+            "recommendations": ["Professional therapy and medication can be effective. Establishing a routine, engaging in enjoyable activities, and practicing mindfulness can also help."]
+          }
+        
+      },
+      {
+        "tag": "bipolar_disorder",
+        "patterns": [
+          "I have extreme mood swings",
+          "Sometimes I'm really happy, then I'm extremely sad",
+          "I go from being energetic to very depressed",
+          "I experience highs and lows",
+          "My moods are unpredictable"
+        ],
+        "responses": 
+          {
+            "symptoms": ["Extreme mood swings between manic and depressive episodes, elevated mood, increased activity during mania, sadness or hopelessness during depression."],
+            "recommendations": ["Treatment usually involves medication and psychotherapy. Maintaining a stable routine, avoiding triggers, and having a support system are crucial."]
+          }
+        
+      },
+      {
+        "tag": "seasonal_affective_disorder",
+        "patterns": [
+          "I feel depressed during the winter",
+          "My mood drops when there is less sunlight",
+          "I feel better in the summer",
+          "I have no energy in the winter",
+          "I crave carbohydrates during the winter"
+        ],
+        "responses": {
+         
+            "symptoms": ["Depression occurring at certain times of the year, usually in winter, low energy, overeating, difficulty concentrating."],
+            "recommendations": ["Light therapy, spending time outdoors, and physical activity can help. Consulting with a healthcare provider is also recommended."]
+          }
+        },
+      
+      {
+        "tag": "psychotic_disorder",
+        "patterns": [
+          "I hear voices that others don't",
+          "I have strange beliefs that worry me",
+          "I feel disconnected from reality",
+          "I see things that aren't there",
+          "I feel paranoid"
+        ],
+        "responses": {
+          
+            "symptoms": ["Distorted thinking and awareness, hallucinations, delusions."],
+            "recommendations": ["Seek immediate help from a mental health professional. Treatment often involves antipsychotic medications and therapy. Staying connected with trusted friends and family can also provide support."]
+          
+        }
+      },
+      {
+            "tag":"Peripartum Depression", 
+              "patterns": [
+                "I feel very down after giving birth",
+                "I'm struggling to bond with my baby",
+                "I feel overwhelmed and sad since becoming a parent"
+              ],
+              "responses": {
+                "symptoms": [
+                  "Feelings of sadness or hopelessness",
+                  "Difficulty bonding with the baby",
+                  "Severe mood swings",
+                  "Excessive crying",
+                  "Withdrawal from family and friends"
+                ],
+                "recommendations": [
+                  "Reach out to a healthcare provider",
+                  "Join a support group for new parents",
+                  "Ensure adequate rest and self-care",
+                  "Talk to a therapist specializing in peripartum issues",
+                  "Consider medication if recommended by a doctor"
+                ]
+              }
+            },
+            {
+                "tag":"Premenstrual Dysphoric Disorder",
+              "patterns": [
+                "I feel extremely irritable before my period",
+                "My mood is very low right before menstruation",
+                "I have severe PMS symptoms"
+              ],
+              "responses": {
+                "symptoms": [
+                  "Severe mood swings",
+                  "Depression or hopelessness",
+                  "Intense irritability or anger",
+                  "Tension or anxiety",
+                  "Fatigue or low energy"
+                ],
+                "recommendations": [
+                  "Consult with a healthcare provider",
+                  "Consider lifestyle changes like regular exercise and a balanced diet",
+                  "Track your symptoms to discuss with a doctor",
+                  "Explore therapy options for mood management",
+                  "Medication such as antidepressants may be recommended"
+                ]
+              }
+            },
+            {"tag":"Situational Depression",
+              "patterns": [
+                "I'm feeling really down after a big change in my life",
+                "I can't cope with this recent stressful event",
+                "I feel depressed after losing my job"
+              ],
+              "responses": {
+                "symptoms": [
+                  "Sadness or hopelessness related to a specific event",
+                  "Anxiety and worry",
+                  "Difficulty sleeping",
+                  "Loss of interest in activities",
+                  "Crying frequently"
+                ],
+                "recommendations": [
+                  "Seek support from friends and family",
+                  "Consider talking to a counselor or therapist",
+                  "Practice stress-reducing activities like yoga or meditation",
+                  "Maintain a routine to provide structure",
+                  "Focus on self-care and healthy habits"
+                ]
+              }
+            },
+            {
+                "tag":"Atypical Depression",
+              "patterns": [
+                "I feel better when good things happen but still depressed overall",
+                "I feel very tired and my limbs feel heavy",
+                "I crave sweets and sleep too much"
+              ],
+              "responses": {
+                "symptoms": [
+                  "Mood reactivity (mood brightens in response to positive events)",
+                  "Increased appetite or weight gain",
+                  "Excessive sleepiness",
+                  "Heavy feeling in arms or legs",
+                  "Sensitivity to rejection"
+                ],
+                "recommendations": [
+                  "Consult with a healthcare provider",
+                  "Consider therapy, such as cognitive behavioral therapy (CBT)",
+                  "Antidepressant medications may be helpful",
+                  "Engage in regular physical activity",
+                  "Build a support system with friends and family"
+                ]
+              }
+            },
+            {
+
+            "tag":"Treatment Resistant Depression", 
+              "patterns": [
+                "I've tried many treatments but still feel depressed",
+                "No medication seems to help my depression",
+                "Therapy isn't working for me"
+              ],
+              "responses": {
+                "symptoms": [
+                  "Persistent feelings of sadness or hopelessness",
+                  "Lack of response to multiple treatments",
+                  "Difficulty finding relief from symptoms",
+                  "Chronic fatigue",
+                  "Changes in sleep and appetite"
+                ],
+                "recommendations": [
+                  "Consult with a specialist in treatment-resistant depression",
+                  "Explore alternative treatments like ECT or TMS",
+                  "Consider combining medication with different types of therapy",
+                  "Ensure comprehensive lifestyle changes are in place",
+                  "Look into clinical trials for new treatments"
+                ]
+              }
+            },
+          {
+          
+            "tag":"Generalized Anxiety Disorder",
+              "patterns": [
+                "I feel anxious about everything",
+                "I'm constantly worried and can't relax",
+                "My anxiety affects my daily life"
+              ],
+              "responses": {
+                "symptoms": [
+                  "Persistent and excessive worry",
+                  "Restlessness or feeling on edge",
+                  "Difficulty concentrating",
+                  "Muscle tension",
+                  "Sleep disturbances"
+                ],
+                "recommendations": [
+                  "Consult with a healthcare provider",
+                  "Consider cognitive behavioral therapy (CBT)",
+                  "Practice relaxation techniques like deep breathing or meditation",
+                  "Regular physical activity",
+                  "Medication may be prescribed by a doctor"
+                ]
+              }
+            },
+            {
+                "tag":"Panic Disorder", 
+                 "patterns": [
+                "I have sudden, intense episodes of fear",
+                "My heart races and I can't breathe during attacks",
+                "I fear having another panic attack"
+              ],
+              "responses": {
+                "symptoms": [
+                  "Sudden and repeated panic attacks",
+                  "Heart palpitations",
+                  "Sweating and trembling",
+                  "Shortness of breath",
+                  "Fear of losing control or dying"
+                ],
+                "recommendations": [
+                  "Seek help from a healthcare provider",
+                  "Learn and practice breathing exercises",
+                  "Cognitive behavioral therapy (CBT) can be effective",
+                  "Avoid caffeine and other stimulants",
+                  "Medication may be helpful in managing symptoms"
+                ]
+              }
+            },
+            {
+            "tag":"Phobias",
+              "patterns": [
+                "I have an intense fear of specific things",
+                "I avoid places because of my fear",
+                "My fear of something specific disrupts my life"
+              ],
+              "responses": {
+                "symptoms": [
+                  "Intense and irrational fear of specific objects or situations",
+                  "Avoidance behavior",
+                  "Panic or severe anxiety when exposed to the phobia trigger",
+                  "Physical symptoms like sweating and trembling",
+                  "Impact on daily functioning"
+                ],
+                "recommendations": [
+                  "Consider exposure therapy with a trained therapist",
+                  "Learn and practice relaxation techniques",
+                  "Gradual exposure to the feared object or situation",
+                  "Join a support group",
+                  "Medication may be prescribed to help manage anxiety"
+                ]
+              }
+            },
+            {
+                "tag":"Separation Anxiety",
+              "patterns": [
+                "I feel extreme distress when away from loved ones",
+                "I worry something bad will happen to my loved ones",
+                "I can't stand being apart from my family"
+              ],
+              "responses": {
+                "symptoms": [
+                  "Excessive distress when anticipating or experiencing separation",
+                  "Worry about losing major attachment figures",
+                  "Refusal to be alone or sleep away from home",
+                  "Nightmares about separation",
+                  "Physical symptoms like headaches or stomachaches"
+                ],
+                "recommendations": [
+                  "Consult with a healthcare provider",
+                  "Cognitive behavioral therapy (CBT) can be effective",
+                  "Gradual exposure to separation",
+                  "Develop a consistent routine",
+                  "Consider family therapy"
+                ]
+              }
+            },
+            {
+              "tag": "positive-feeling",
+              "patterns": ["I feel good today", "I'm feeling happy right now", "Feeling great!", "I'm in a good mood"],
+              "responses": {
+              "symptoms": ["there is no need for symptoms then, Is it?"],
+              "recommendations": ["That's fantastic to hear! Enjoy your day!"]
+              }
+            },
+          {
+              "tag": "happy-emotion",
+              "patterns": ["I'm happy", "I feel happy", "Happiness is all around me"],
+              "responses": {
+              "symptoms": ["there is no need for symptoms then, Is it?"],  
+              "recommendations": ["I'm glad to hear that! Keep spreading those positive vibes!"]
+              }
+            },
+          {
+              "tag": "positive-vibes",
+              "patterns": ["Feeling positive today", "I've got positive vibes", "Positivity is my mantra"],
+              "responses": {
+                "symptoms": ["there is no need for symptoms then, Is it?"],
+              "recommendations": ["Great to know! Wishing you more days like this."]
+              }
+            },
+          {
+              "tag": "good-mood",
+              "patterns": ["I'm in a good mood today", "Feeling upbeat", "Feeling optimistic"],
+              "responses": {
+                "symptoms": ["there is no need for symptoms then, Is it?"],
+              "recommendations": ["Good to hear you're in a good mood! Have a fantastic day."]
+              }
+            },
+          {
+              "tag": "joyful",
+              "patterns": ["I'm feeling joyful", "Joy is in the air", "Joyful vibes today"],
+              "responses": {
+                "symptoms": ["there is no need for symptoms then, Is it?"],
+              "recommendations": ["Excellent! May your day continue to be filled with happiness."]
+              }
+            },
+          {
+              "tag": "contentment",
+              "patterns": ["I feel content", "Contentment is my state", "I'm content today"],
+              "responses": {
+                "symptoms": ["there is no need for symptoms then, Is it?"],
+              "recommendations": ["That's music to my ears! Here's to more uplifting moments."]
+              }
+            }
+          
+        
+
+      
+      
+    ]
+}
+         
+  
